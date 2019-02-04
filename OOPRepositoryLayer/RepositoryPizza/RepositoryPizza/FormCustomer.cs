@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using RepositoryPizza.pizzaExceptions;
 using RepositoryPizza.Service;
-using RepositoryPizza.TableClasses;
+using RepositoryPizza.ModelCustomer;
 
 namespace RepositoryPizza
 {

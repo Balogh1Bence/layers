@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RepositoryPizza.pizzaExceptions;
 using RepositoryPizza.Repository;
-using RepositoryPizza.TableClasses;
+using RepositoryPizza.ModelCustomer;
 
 namespace RepositoryPizza.Service
 {

@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using RepositoryPizza.TableClasses;
+using RepositoryPizza.ModelCustomer;
 using ConnectToMysqlDatabase;
 using System.Data;
 
 namespace RepositoryPizza.Repository
 {
-    class CustomersRepo
+    partial class CustomersRepo
     {
         List<Customer> customers;
 
