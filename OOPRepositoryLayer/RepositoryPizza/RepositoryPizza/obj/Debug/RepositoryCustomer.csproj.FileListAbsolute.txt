@@ -1,0 +1,26 @@
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.exe.config
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.exe
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.pdb
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\MySql.Data.dll
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\MySql.Data.xml
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csprojAssemblyReference.cache
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.FormCustomer.resources
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.Properties.Resources.resources
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.GenerateResource.cache
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.CoreCompileInputs.cache
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.CopyComplete
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.exe
+C:\Users\gycsaba\Source\Repos\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.pdb
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.exe.config
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.exe
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\RepositoryPizza.pdb
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\MySql.Data.dll
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\bin\Debug\MySql.Data.xml
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csprojAssemblyReference.cache
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.FormCustomer.resources
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.Properties.Resources.resources
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.GenerateResource.cache
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.CoreCompileInputs.cache
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryCustomer.csproj.CopyComplete
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.exe
+C:\Users\sz7kirjan\Desktop\Kirsch János Márk\OOPRepositoryLayer\RepositoryPizza\RepositoryPizza\obj\Debug\RepositoryPizza.pdb
