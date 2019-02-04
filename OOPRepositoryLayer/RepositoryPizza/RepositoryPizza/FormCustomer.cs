@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using RepositoryPizza.pizzaExceptions;
 using RepositoryPizza.Service;
 using RepositoryPizza.TableClasses;
 
@@ -31,12 +31,19 @@ namespace RepositoryPizza
 
         private void buttonNew_Click(object sender, EventArgs e)
         {
-            Customer hofeherke = new Customer(8, "Hófehérke", "Erdő utca 8");
-            cs.addCustomer(hofeherke);
+            try
+            {
+                errorProviderNewButton.Clear();
+                Customer hofeherke = new Customer(8, "Hófehérke", "Erdő utca 8");
+                cs.addCustomer(hofeherke);
 
-            dataGridViewCustomers.DataSource = null;
-            dataGridViewCustomers.DataSource = cs.LoadCustomerData();
-
+                dataGridViewCustomers.DataSource = null;
+                dataGridViewCustomers.DataSource = cs.LoadCustomerData();
+            }
+            catch (CustomerServiceException cse)
+            {
+                errorProviderNewButton.SetError(buttonNew, cse.Message);
+            }
         }
 
         private void FormCustomer_Load(object sender, EventArgs e)

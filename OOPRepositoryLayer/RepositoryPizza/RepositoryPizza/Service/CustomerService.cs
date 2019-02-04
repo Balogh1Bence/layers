@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using RepositoryPizza.pizzaExceptions;
 using RepositoryPizza.Repository;
 using RepositoryPizza.TableClasses;
 
@@ -26,7 +26,14 @@ namespace RepositoryPizza.Service
 
         internal void addCustomer(Customer newCustomer)
         {
-            cr.addCustomer(newCustomer);
+            if (!cr.checkExist(newCustomer))
+            {
+                cr.addCustomer(newCustomer);
+            }
+            else
+            {
+                throw new CustomerServiceException(newCustomer.getName() + " already exists.");
+            }
         }
     }
 }

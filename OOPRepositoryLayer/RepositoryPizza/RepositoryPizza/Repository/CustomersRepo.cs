@@ -34,6 +34,20 @@ namespace RepositoryPizza.Repository
             return cDT;
         }
 
+        internal bool checkExist(Customer newCustomer)
+        {
+            foreach (Customer c in customers)
+            {
+                if (c.getId() == newCustomer.getId())
+                {
+                    return true;
+                }
+            }
+
+            return false;
+
+        }
+
         internal void addCustomer(Customer newCustomer)
         {
             customers.Add(newCustomer);

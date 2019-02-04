@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pizzaExceptions\CustomerServiceException.cs" />
     <Compile Include="Service\CustomerService.cs" />
     <Compile Include="TableClasses\Customer.cs" />
     <Compile Include="Database\MySQLDatabase.cs" />

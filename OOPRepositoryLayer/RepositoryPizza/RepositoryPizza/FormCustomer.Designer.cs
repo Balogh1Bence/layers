@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.buttonLoad = new System.Windows.Forms.Button();
             this.dataGridViewCustomers = new System.Windows.Forms.DataGridView();
             this.buttonNew = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
+            this.errorProviderNewButton = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCustomers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNewButton)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonLoad
@@ -82,6 +85,10 @@
             this.buttonDelete.Text = "Delete";
             this.buttonDelete.UseVisualStyleBackColor = true;
             // 
+            // errorProviderNewButton
+            // 
+            this.errorProviderNewButton.ContainerControl = this;
+            // 
             // FormCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -96,6 +103,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormCustomer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCustomers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNewButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -107,6 +115,7 @@
         private System.Windows.Forms.Button buttonNew;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.ErrorProvider errorProviderNewButton;
     }
 }
 
