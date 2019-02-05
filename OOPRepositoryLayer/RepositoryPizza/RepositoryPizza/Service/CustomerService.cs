@@ -29,6 +29,8 @@ namespace RepositoryPizza.Service
             if (!cr.checkExist(newCustomer))
             {
                 cr.addCustomer(newCustomer);
+                cr.addcustomerToDatabase(newCustomer);
+                
             }
             else
             {

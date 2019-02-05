@@ -1,2 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RepositoryPizza.FormCustomer" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAEAgAAAACIBAACAAAAAAAAABAAEIIIAAA=</HashCode>
+      <FileName>FormCustomer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cs" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RepositoryPizza.Service.CustomerService" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAggAAAAAAAAAAA=</HashCode>
+      <FileName>Service\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RepositoryPizza.Repository.CustomersRepo" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgABAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAEAA=</HashCode>
+      <FileName>Repository\CustomersRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="customers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RepositoryPizza.ModelCustomer.Customer" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAAAAAgAAAEACAAAAAAAAIEAABAAAAEAgAAAgA=</HashCode>
+      <FileName>ModelCustomer\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepositoryPizza.pizzaExceptions.CustomerServiceException" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pizzaExceptions\CustomerServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectToMysqlDatabase.MySQLDatabase" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Database\MySQLDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectToMysqlDatabase.MySQLDatabaseInterface" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAgAIEAEAAABEBABCABAAEABAIAAAgoEsAQAhAEACY=</HashCode>
+      <FileName>Database\MySQLDatabaseInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

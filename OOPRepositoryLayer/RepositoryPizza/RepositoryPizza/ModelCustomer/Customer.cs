@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryPizza.ModelCustomer
 {
-    class Customer
+    partial class Customer
     {
         private int id;
         private string name;
@@ -23,6 +23,7 @@ namespace RepositoryPizza.ModelCustomer
         {
             this.id = id;
         }
+
         public void setName(string name)
         {
             this.name = name;

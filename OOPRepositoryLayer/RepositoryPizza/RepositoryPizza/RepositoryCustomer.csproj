@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ModelCustomer\Customer.cs" />
+    <Compile Include="ModelCustomer\CustomerMYSQLCommand.cs" />
     <Compile Include="pizzaExceptions\CustomerServiceException.cs" />
+    <Compile Include="Repository\CustomersRepoDatabaseOptions.cs" />
     <Compile Include="Service\CustomerService.cs" />
     <Compile Include="Database\MySQLDatabase.cs" />
     <Compile Include="Database\MySQLDatabaseInterface.cs" />
@@ -81,6 +83,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UML-s\MVCDesigncd.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
