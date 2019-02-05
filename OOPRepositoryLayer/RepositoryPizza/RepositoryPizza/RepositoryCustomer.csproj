@@ -46,9 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelCustomer\Customer.cs" />
     <Compile Include="pizzaExceptions\CustomerServiceException.cs" />
     <Compile Include="Service\CustomerService.cs" />
-    <Compile Include="TableClasses\Customer.cs" />
     <Compile Include="Database\MySQLDatabase.cs" />
     <Compile Include="Database\MySQLDatabaseInterface.cs" />
     <Compile Include="FormCustomer.cs">
@@ -88,5 +88,6 @@
   <ItemGroup>
     <Content Include="Database\pvevo.sql" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
