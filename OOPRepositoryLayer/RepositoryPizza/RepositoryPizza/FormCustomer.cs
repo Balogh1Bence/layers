@@ -34,7 +34,7 @@ namespace RepositoryPizza
 
         private void buttonNew_Click(object sender, EventArgs e)
         {
-            try
+             try
             {
                 errorProviderNewButton.Clear();
                 Customer hofeherke = new Customer(Convert.ToInt32(textBox1.Text), textBox2.Text,textBox3.Text);
