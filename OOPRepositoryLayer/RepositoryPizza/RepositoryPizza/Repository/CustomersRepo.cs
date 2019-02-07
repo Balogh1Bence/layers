@@ -71,6 +71,10 @@ namespace RepositoryPizza.Repository
                 customers.Add(c);
             }
         }
-
+        public void modifyList(Customer c)
+            {
+            int id=c.getId();
+                customers[id].setName(c.getName());
+                customers[id].setAddress(c.getAddress());
     }
 }
