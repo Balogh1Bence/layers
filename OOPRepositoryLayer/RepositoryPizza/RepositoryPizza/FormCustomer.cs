@@ -34,7 +34,7 @@ namespace RepositoryPizza
             try
             {
                 errorProviderNewButton.Clear();
-                Customer hofeherke = new Customer(8, "Hófehérke", "Erdő utca 8");
+                Customer hofeherke = new Customer(Convert.ToInt32(textBox1.Text), textBox2.Text,textBox3.Text);
                 cs.addCustomer(hofeherke);
 
                 dataGridViewCustomers.DataSource = null;
@@ -47,6 +47,16 @@ namespace RepositoryPizza
         }
 
         private void FormCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonEdit_Click(object sender, EventArgs e)
+        {
+            cs.editCustomerData();
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
         {
 
         }
