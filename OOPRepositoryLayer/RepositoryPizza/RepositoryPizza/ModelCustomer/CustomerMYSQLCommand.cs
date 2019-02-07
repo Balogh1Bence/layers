@@ -13,5 +13,10 @@ namespace RepositoryPizza.ModelCustomer
             return "INSERT INTO `pvevo` (`vazon`, `vnev`, `vcim`) VALUES ('" + getId() + "', '" + getName() + "', '" + 
                 getAddress() + "');";
         }
+        public string getUpdateQuery()
+        {
+            int id = getId();
+            return "UPDATE `pvevo` SET `vazon`="+id+",`vnev`="+getName()+",`vcim`="+getAddress()+" WHERE vazon='"+id+"'";
+        }
     }
 }

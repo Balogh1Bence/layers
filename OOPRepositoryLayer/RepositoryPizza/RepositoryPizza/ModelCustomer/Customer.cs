@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryPizza.ModelCustomer
 {
-    partial class Customer
+    public partial class Customer
     {
         private int id;
         private string name;

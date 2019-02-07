@@ -21,6 +21,9 @@ namespace RepositoryPizza
         {
             cs = new CustomerService();
             InitializeComponent();
+            dataGridViewCustomers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            
+
         }
 
         private void buttonLoad_Click(object sender, EventArgs e)
@@ -53,6 +56,17 @@ namespace RepositoryPizza
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
+            if(dataGridViewCustomers.SelectedRows.Count>1)
+            {
+                dataGridViewCustomers.ClearSelection();
+                return;
+            }
+            Customer c = new Customer(Convert.ToInt32(dataGridViewCustomers.SelectedRows[0].Cells[0].Value.ToString()), dataGridViewCustomers.SelectedRows[0].Cells[1].Value.ToString(), dataGridViewCustomers.SelectedRows[0].Cells[2].Value.ToString());
+            Edit edit = new Edit(c);
+            edit.Show();
+            int azon;
+            string nev;
+            string cim;
             cs.editCustomerData();
         }
 
